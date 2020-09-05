@@ -1,3 +1,5 @@
+"use strict";
+
 // class List {
 //     constructor(){
 //         this.data = []        
@@ -184,4 +186,25 @@
 //     return item === 10;
 // })
 // console.log(find);
-"use strict";
+// // Arrow functions
+var arr = [10, 11, 13, 15, 17, 20, 30];
+var newArr = arr.map(function (item, index) {
+  return item * 2 + index;
+});
+console.log(newArr);
+
+var teste = function teste() {
+  return {
+    nome: 'Felipe'
+  };
+};
+
+console.log(teste);
+
+var teste2 = function teste2() {
+  return {
+    nome: 'Teste'
+  };
+};
+
+console.log(teste2);

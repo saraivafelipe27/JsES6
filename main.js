@@ -319,3 +319,26 @@
 // })
 
 // console.log(find);
+
+
+// // Arrow functions
+
+
+const arr = [10, 11, 13, 15, 17, 20, 30];
+
+const newArr = arr.map((item, index) => item * 2 + index);
+
+console.log(newArr);
+
+
+
+
+const teste = () => ({ nome: 'Felipe' });
+
+console.log(teste);
+
+
+const teste2 = () => ({ nome: 'Teste' });
+
+console.log(teste2);
+
