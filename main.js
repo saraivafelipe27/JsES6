@@ -297,18 +297,25 @@
 
 // // REDUCE
 
-const arr = [10, 11, 13, 15, 17, 20, 30, 40, 50, 70];
+// const arr = [10, 11, 13, 15, 17, 20, 30, 40, 50, 70];
  
-const som = arr.reduce(function(total, next){
-    return total + next;
-})
+// const som = arr.reduce(function(total, next){
+//     return total + next;
+// })
 
 
-console.log(som);
+// console.log(som);
 
 
-const filter = arr.filter(function(item){
-    return item % 2 !== 0;
-})
+// const filter = arr.filter(function(item){
+//     return item % 2 !== 0;
+// })
 
-console.log(filter);
+// console.log(filter);
+
+
+// const find = arr.find(function(item){
+//     return item === 10;
+// })
+
+// console.log(find);
