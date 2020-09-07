@@ -187,24 +187,38 @@
 // })
 // console.log(find);
 // // Arrow functions
-var arr = [10, 11, 13, 15, 17, 20, 30];
-var newArr = arr.map(function (item, index) {
-  return item * 2 + index;
-});
-console.log(newArr);
+// const arr = [10, 11, 13, 15, 17, 20, 30];
+// const newArr = arr.map((item, index) => item * 2 + index);
+// console.log(newArr);
+// const teste = () => ({ nome: 'Felipe' });
+// console.log(teste);
+// const teste2 = () => ({ nome: 'Teste' });
+// console.log(teste2);
+// destructuring of the object;
+// const user = {
+//     nome: 'Felipe',
+//     idade: 26,
+//     endereco: {
+//         cidade: 'Brasília',
+//         estado: 'DF',
+//     }
+// }
+// const { nome, endereco: { estado } } = user;
+// console.log(nome);
+// console.log(estado);
+var escola = {
+  nome: 'uniplan',
+  professor: 'Fabiano',
+  turmas: {
+    ads1: '20 alunos',
+    ads2: '30 alunos',
+    ads3: '25 alunos'
+  }
+}; // console.log(escola.nome);
+// console.log(escola.turmas.ads2);
 
-var teste = function teste() {
-  return {
-    nome: 'Felipe'
-  };
-};
-
-console.log(teste);
-
-var teste2 = function teste2() {
-  return {
-    nome: 'Teste'
-  };
-};
-
-console.log(teste2);
+var nome = escola.nome,
+    _escola$turmas = escola.turmas,
+    ads1 = _escola$turmas.ads1,
+    ads3 = _escola$turmas.ads3;
+console.log(escola);

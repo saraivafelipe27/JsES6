@@ -324,21 +324,61 @@
 // // Arrow functions
 
 
-const arr = [10, 11, 13, 15, 17, 20, 30];
+// const arr = [10, 11, 13, 15, 17, 20, 30];
 
-const newArr = arr.map((item, index) => item * 2 + index);
+// const newArr = arr.map((item, index) => item * 2 + index);
 
-console.log(newArr);
-
-
+// console.log(newArr);
 
 
-const teste = () => ({ nome: 'Felipe' });
-
-console.log(teste);
 
 
-const teste2 = () => ({ nome: 'Teste' });
+// const teste = () => ({ nome: 'Felipe' });
 
-console.log(teste2);
+// console.log(teste);
 
+
+// const teste2 = () => ({ nome: 'Teste' });
+
+// console.log(teste2);
+
+
+
+
+
+// destructuring of the object;
+
+
+// const user = {
+//     nome: 'Felipe',
+//     idade: 26,
+//     endereco: {
+//         cidade: 'Brasília',
+//         estado: 'DF',
+//     }
+// }
+
+// const { nome, endereco: { estado } } = user;
+
+// console.log(nome);
+// console.log(estado);
+
+
+
+const escola = {
+    nome: 'uniplan',
+    professor: 'Fabiano',
+    turmas: {
+        ads1: '20 alunos',
+        ads2: '30 alunos',
+        ads3: '25 alunos',
+    }
+}
+
+
+// console.log(escola.nome);
+// console.log(escola.turmas.ads2);
+
+const { nome, turmas: { ads1, ads3 }} = escola;
+
+console.log(escola);
