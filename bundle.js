@@ -1,5 +1,3 @@
-"use strict";
-
 // class List {
 //     constructor(){
 //         this.data = []        
@@ -259,11 +257,12 @@
 // const age = 26;
 // console.log(`My name is ${name} and i have ${age} years`)
 // // Object  Short Syntax 
-var name = 'Felipe';
-var age = 26;
-var user = {
-  name: name,
-  age: age,
-  student: 'yes'
-};
-console.log(user);
+// const name = 'Felipe';
+// const age = 26;
+// const user = {
+//     name,
+//     age, 
+//     student: 'yes'
+// }
+// console.log(user);
+"use strict";

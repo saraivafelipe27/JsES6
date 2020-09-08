@@ -456,13 +456,13 @@
 
 // // Object  Short Syntax 
 
-const name = 'Felipe';
-const age = 26;
+// const name = 'Felipe';
+// const age = 26;
 
-const user = {
-    name,
-    age, 
-    student: 'yes'
-}
+// const user = {
+//     name,
+//     age, 
+//     student: 'yes'
+// }
 
-console.log(user);
+// console.log(user);
