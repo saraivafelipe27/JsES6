@@ -448,7 +448,21 @@
 
 // // Template literals ${}
 
+// const name = 'Felipe';
+// const age = 26;
+
+// console.log(`My name is ${name} and i have ${age} years`)
+
+
+// // Object  Short Syntax 
+
 const name = 'Felipe';
 const age = 26;
 
-console.log(`My name is ${name} and i have ${age} years`)
+const user = {
+    name,
+    age, 
+    student: 'yes'
+}
+
+console.log(user);

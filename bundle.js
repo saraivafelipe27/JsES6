@@ -255,6 +255,15 @@
 // console.log(user);
 // console.log(user2);
 // // Template literals ${}
+// const name = 'Felipe';
+// const age = 26;
+// console.log(`My name is ${name} and i have ${age} years`)
+// // Object  Short Syntax 
 var name = 'Felipe';
 var age = 26;
-console.log("My name is ".concat(name, " and i have ").concat(age, " years"));
+var user = {
+  name: name,
+  age: age,
+  student: 'yes'
+};
+console.log(user);
