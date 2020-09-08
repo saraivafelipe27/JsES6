@@ -1,5 +1,3 @@
-"use strict";
-
 // class List {
 //     constructor(){
 //         this.data = []        
@@ -206,19 +204,52 @@
 // const { nome, endereco: { estado } } = user;
 // console.log(nome);
 // console.log(estado);
-var escola = {
-  nome: 'uniplan',
-  professor: 'Fabiano',
-  turmas: {
-    ads1: '20 alunos',
-    ads2: '30 alunos',
-    ads3: '25 alunos'
-  }
-}; // console.log(escola.nome);
-// console.log(escola.turmas.ads2);
-
-var nome = escola.nome,
-    _escola$turmas = escola.turmas,
-    ads1 = _escola$turmas.ads1,
-    ads3 = _escola$turmas.ads3;
-console.log(escola);
+// const escola = {
+//     nome: 'uniplan',
+//     professor: 'Fabiano',
+//     turmas: {
+//         ads1: '20 alunos',
+//         ads2: '30 alunos',
+//         ads3: '25 alunos',
+//     }
+// }
+// // console.log(escola.nome);
+// // console.log(escola.turmas.ads2);
+// const { nome, turmas: { ads1, ads3 }} = escola;
+// console.log(escola);
+// // REST & SPREAD
+// const escola = {
+//     nome: 'uniplan',
+//     professor: 'Fabiano',
+//     turmas: {
+//         ads1: '20 alunos',
+//         ads2: '30 alunos',
+//         ads3: '25 alunos',
+//     }
+// }
+// const { nome, ...resto } = escola;
+// console.log(nome);
+// console.log(resto);
+// const arr = [1, 2, 3, 4, 5];
+// const [ a, b, ...c] = arr;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// function soma(a, b, ...params){
+//     return params;
+// }
+// console.log(soma(1, 4, 5, 7, 7, 10));
+// // Spread 
+// const arr1 = [1, 2, 3];
+// const arr2 = [4, 5, 6];
+// const arr3 = [ ...arr1, ...arr2 ];
+// console.log(arr3);
+// const user = {
+//     nome: 'Felipe',
+//     idade: 26,
+//     cidade: 'brasília'
+// }
+// const user2 = { ...user, nome: 'Felp2', idade: 25 };
+// console.log(user);
+// console.log(user2);
+"use strict";
