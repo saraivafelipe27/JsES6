@@ -446,3 +446,9 @@
 // console.log(user2);
 
 
+// // Template literals ${}
+
+const name = 'Felipe';
+const age = 26;
+
+console.log(`My name is ${name} and i have ${age} years`)

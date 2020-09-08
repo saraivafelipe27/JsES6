@@ -1,3 +1,5 @@
+"use strict";
+
 // class List {
 //     constructor(){
 //         this.data = []        
@@ -252,4 +254,7 @@
 // const user2 = { ...user, nome: 'Felp2', idade: 25 };
 // console.log(user);
 // console.log(user2);
-"use strict";
+// // Template literals ${}
+var name = 'Felipe';
+var age = 26;
+console.log("My name is ".concat(name, " and i have ").concat(age, " years"));
