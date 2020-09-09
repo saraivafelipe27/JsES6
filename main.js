@@ -454,7 +454,7 @@
 // console.log(`My name is ${name} and i have ${age} years`)
 
 
-// // Object  Short Syntax 
+// // Object Short Syntax 
 
 // const name = 'Felipe';
 // const age = 26;
@@ -466,3 +466,26 @@
 // }
 
 // console.log(user);
+
+
+
+
+
+
+
+// // ASYNC AWAIT
+
+
+const myPromise = () => new Promise((response, reject) => {
+    setTimeout(() => { response('Teste...') }, 3000);
+})
+
+
+async function executaPromise() {
+    const response = await myPromise();
+
+    console.log(response);
+}
+
+
+executaPromise();
