@@ -476,16 +476,16 @@
 // // ASYNC AWAIT
 
 
-const myPromise = () => new Promise((response, reject) => {
-    setTimeout(() => { response('Teste...') }, 3000);
-})
+// const myPromise = () => new Promise((response, reject) => {
+//     setTimeout(() => { response('Teste...') }, 3000);
+// })
 
 
-async function executaPromise() {
-    const response = await myPromise();
+// async function executaPromise() {
+//     const response = await myPromise();
 
-    console.log(response);
-}
+//     console.log(response);
+// }
 
 
 executaPromise();
