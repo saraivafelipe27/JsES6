@@ -488,4 +488,8 @@
 // }
 
 
-executaPromise();
+// executaPromise();
+
+import { soma } from './funções';
+
+console.log(soma(2,4));
